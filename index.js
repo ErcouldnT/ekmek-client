@@ -1,7 +1,7 @@
 const fs = require("fs");
 const io = require("socket.io-client");
 
-const socket = io("http://localhost:3000");
+const socket = io("http://localhost:5000");
 
 socket.on("connect", () => {
   console.log("SocketIO injected");
@@ -53,7 +53,7 @@ const logReader = () => {
         // send it
         socket.emit("logSender", log);
 
-        // console.log(log);
+        console.log(log);
       };
     };
 
