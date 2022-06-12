@@ -1,0 +1,26 @@
+{
+  "name": "ekmek-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErcouldnT/ekmek-client.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErcouldnT/ekmek-client/issues"
+  },
+  "homepage": "https://github.com/ErcouldnT/ekmek-client#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.5.1"
+  }
+}
