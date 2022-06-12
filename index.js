@@ -1,7 +1,7 @@
 const fs = require("fs");
 const io = require("socket.io-client");
 
-const socket = io("http://localhost:5000");
+const socket = io("https://ekmek.herokuapp.com");
 
 socket.on("connect", () => {
   console.log("SocketIO injected");
